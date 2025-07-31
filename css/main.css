@@ -268,7 +268,7 @@ body {
 }
 .products-section .product-catalogue .card-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 1.5rem;
   justify-content: center;
 }
@@ -611,9 +611,6 @@ body {
   .card-grid {
     gap: 1rem;
   }
-  .products-section .product-catalogue .card-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
 }
 @media (max-width: 768px) {
   .navbar .container {
@@ -645,9 +642,6 @@ body {
     flex-direction: column;
     gap: 1rem;
     align-items: center;
-  }
-  .products-section .product-catalogue .card-grid {
-    grid-template-columns: 1fr;
   }
   .footer .container,
   .faq-section .container {
