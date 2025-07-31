@@ -1,0 +1,20 @@
+{
+  "name": "scomed-website",
+  "version": "1.0.0",
+  "description": "Scomed Medical Equipment and Supplies business website visit the website at https://lecahill.github.io/Scomed-Website/",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jsdom": "^24.0.0"
+  }
+}
