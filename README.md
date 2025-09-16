@@ -4,3 +4,5 @@ visit the website at https://lecahill.github.io/Scomed-Website/
 
 ## Contact
 Email: info@scomed.com
+
+lorem ipsum
